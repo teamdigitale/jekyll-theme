@@ -30,14 +30,14 @@
     <section>
       <h3>Copyright and license</h3>
       <p>
-        © {{ site.time | date: '%Y' }} 
+        © {{ site.time | date: '%Y' }}
         {% for static_file in site.static_files %}
           {% if static_file.path == '/AUTHORS.md' %}
               {% assign authors_file = true %}
           {% endif %}
         {% endfor %}
         {% if authors_file != true %}<a href="https://publiccode.net/">
-          {{ site.copyright | default: 'Foundation For Public Code' }}
+          {{ site.copyright | default: 'Team per la Trasformazione Digitale' }}
         </a>{% endif %}
         {% if authors_file %}<a href="{{ site.baseurl }}/AUTHORS.html">
           {{ site.copyright | default: ' The Authors' }}
