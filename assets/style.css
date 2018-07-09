@@ -1,12 +1,12 @@
 @import url("github-markdown.css");
 @import url("rouge-highlight.css");
-@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,700');
 
 
 /* GENERAL */
 
 body {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   margin: 0;
   background: #fdfdfd;
 }
